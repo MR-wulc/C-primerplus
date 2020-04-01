@@ -50,12 +50,12 @@ int main()
             {
                 cout << "Oh, bad guess!\n";
                 --guesses;
-                badchars += letter;     // 添加到已查找字符串badchars中
+                badchars += letter;              // 添加到已查找字符串badchars中
             }
             else
             {
                 cout << "Good guess!\n";
-                attempt[loc] = letter;  // 添加已查找字符letter到attempt中
+                attempt[loc] = letter;           // 添加已查找字符letter到attempt中
                 // check if letter appears again
                 loc = target.find(letter, loc + 1);     // 从之前已经找到字符loc后一位再次查找letter字符，看它是否重复出现
                 while (loc != string::npos)
