@@ -5,7 +5,9 @@
             "intelliSenseMode": "gcc-x64",
             "compilerPath": "D:\\mingw64\\bin\\g++.exe",
             "includePath": [
-                "${workspaceFolder}"
+                "${workspaceFolder}",
+                "D:\\opencv\\build\\include" ,
+                "D:\\opencv\\build\\include\\opencv2"
             ],
             "cppStandard": "c++17"
         }
