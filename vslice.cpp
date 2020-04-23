@@ -8,5 +8,5 @@ typedef std::valarray<int> vint;
 void show(const vint & v, int cols);
 int main()
 {
-    
+    us
 }
